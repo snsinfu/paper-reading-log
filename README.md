@@ -2,6 +2,10 @@
 
 https://doi.org/10.1186/1756-8935-5-20
 
+クロマチン動態の蛍光トラッキング。hESC と HeLa の DNA を Hoechst 染色して、高速ラインスキャンにより線分上のクロマチン分布を時系列で計測する。一次元だがクロマチンの動態を解析できる。時間相関 G(τ) を計算すると、未分化の hESC では ATP に依存した 10-100 Hz の振動 (breathing) が存在することが分かった。
+
+感想: へぇ。
+
 
 ### 2017-Nozaki: Dynamic Organization of Chromatin Domains Revealed by Super-Resolution Live-Cell Imaging
 
