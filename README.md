@@ -3,6 +3,9 @@
 https://doi.org/10.1186/1756-8935-5-20
 
 
+### 2017-Nozaki: Dynamic Organization of Chromatin Domains Revealed by Super-Resolution Live-Cell Imaging
+
+https://doi.org/10.1016/j.molcel.2017.06.018
 
 
 ### 2018-Huaa: Mitotic antipairing of homologous and sex chromosomes via spatial restriction of two haploid sets
