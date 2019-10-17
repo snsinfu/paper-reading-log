@@ -1,3 +1,8 @@
+### 2019-Tan: EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+
+https://arxiv.org/abs/1905.11946
+
+
 ### 2012-Hinde: Tracking the mechanical dynamics of human embryonic stem cell chromatin
 
 https://doi.org/10.1186/1756-8935-5-20
