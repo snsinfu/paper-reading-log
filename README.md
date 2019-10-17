@@ -7,6 +7,10 @@ https://doi.org/10.1186/1756-8935-5-20
 
 https://doi.org/10.1016/j.molcel.2017.06.018
 
+ヌクレオソーム動態の蛍光観察。ヌクレオソーム集団の RDF、MSD，L-function を解析している。***TODO***
+
+感想: 分裂期と間期でヌクレオソームのドメインサイズが同じということは、ドメイン程度のサイズで粗視化したクロマチンビーズの半径は不変でよいのか?
+
 
 ### 2018-Huaa: Mitotic antipairing of homologous and sex chromosomes via spatial restriction of two haploid sets
 
