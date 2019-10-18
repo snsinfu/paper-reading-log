@@ -1,3 +1,8 @@
+### 2019-Ramaswamy: Learning protein conformational space by enforcing physics with convolutions and latent interpolations
+
+https://arxiv.org/abs/1910.04543
+
+
 ### 2019-Tan: EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
 
 https://arxiv.org/abs/1905.11946
