@@ -2,6 +2,9 @@
 
 https://arxiv.org/abs/1905.11946
 
+CNN のハイパーパラメータ選択指針。Depth d (層数)、width w (フィルタ数)、resolution r (入力画像のサイズ; ピクセル数でなくスケール) はスケーリング則に従って決めると、より少ない計算量で良い結果が出せる。いわく、α β^2 γ^2 = 2 に従うパラメータ α, β, γ および φ を選び、d = α^φ, w = β^φ, r = γ^φ の形で CNN のハイパーパラメータを決めると良いらしい。理論は無い。
+
+感想: 理論が欲しい。CNN 以外のアーキに応用するには? 画像でなく時系列シグナルの場合は?
 
 ### 2012-Hinde: Tracking the mechanical dynamics of human embryonic stem cell chromatin
 
