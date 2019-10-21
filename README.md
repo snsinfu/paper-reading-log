@@ -2,6 +2,10 @@
 
 https://doi.org/10.1038/s41467-019-12306-2
 
+記憶ニューロンの数理モデル。外場 b(t) と隣接行列 W(t) を使って記述される力学系 dx/dt = -x + W(t)φ(x) + b(t) のリミットサイクルとして現れる記憶について。W(t) の固有値の虚部 (つまりグラフエッジの非対称性) が記憶を司ることを見つけた。
+
+感想: おもしろ。ネットワークの記憶と想起ってこんなふうに計算でシミュレート出来るのか。GRN にも応用できる話だし夢ある。この計算においてノイズはどんだけ重要なのかはよく分からなかった。
+
 
 ### 2019-Ramaswamy: Learning protein conformational space by enforcing physics with convolutions and latent interpolations
 
