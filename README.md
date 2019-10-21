@@ -1,3 +1,8 @@
+### 2019-Susman: Stable memory with unstable synapses
+
+https://doi.org/10.1038/s41467-019-12306-2
+
+
 ### 2019-Ramaswamy: Learning protein conformational space by enforcing physics with convolutions and latent interpolations
 
 https://arxiv.org/abs/1910.04543
