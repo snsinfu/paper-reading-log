@@ -1,3 +1,10 @@
+### 2019-Lee: Pericentromeric heterochromatin is hierarchically organized and spatially contacts H3K9me2/3 islands located in euchromatic genome
+
+http://dx.doi.org/10.1101/525873
+
+ハエの pericentromeric heterochromatin に注目した Hi-C。***TODO***
+
+
 ### 2019-Susman: Stable memory with unstable synapses
 
 https://doi.org/10.1038/s41467-019-12306-2
