@@ -1,3 +1,9 @@
+### 2019-Viphakone:  Co-transcriptional Loading of RNA Export Factors
+Shapes the Human Transcriptome
+
+https://doi.org/10.1016/j.molcel.2019.04.034
+
+
 ### 2019-Lee: Pericentromeric heterochromatin is hierarchically organized and spatially contacts H3K9me2/3 islands located in euchromatic genome
 
 http://dx.doi.org/10.1101/525873
