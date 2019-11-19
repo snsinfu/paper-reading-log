@@ -1,3 +1,12 @@
+### 2013-Manning: Vitamin C Promotes Maturation of T-Cells
+
+https://dx.doi.org/10.1089/ars.2012.4988
+
+ビタミンCがT細胞分化に必要であるという実験。リンパ芽球のT細胞 (キラーとか) への分化は CD4, CD8 という2つの抗体遺伝子の発現 (DP; double positiblve) により特徴づけられる。論文の実験では未分化の細胞をビタミンCありの条件 (pAsc) とコントロールで培養。フローサイトメトリーで抗体の発現量を測定した結果、pAsc 条件のときのみ DP が現れ、しかもpAsc 供給を継続しないと DP は維持できないと分かった。マイクロアレイによると発現量が変化したのは CD8 だった。また ChIP-seq の結果、pAsc 条件では CD8 遺伝子プロモータ領域の H3K9me2 が減少することが分かった。
+
+感想: 面白い。ビタミンCが免疫力を高めるという話に関わるきちんとした、筋の通せそうな話だ。 CD8 のエピジェネティック調節に効き、それによりT細胞の分化成熟と活性維持に効いているのか。
+
+
 ### 2019-Barrington: Enhancer accessibility and CTCF occupancy underlie asymmetric TAD architecture and cell type specific genome topology
 
 https://doi.org/10.1038/s41467-019-10725-9
