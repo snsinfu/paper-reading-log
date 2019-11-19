@@ -1,3 +1,8 @@
+### 2019-Barrington: Enhancer accessibility and CTCF occupancy underlie asymmetric TAD architecture and cell type specific genome topology
+
+https://doi.org/10.1038/s41467-019-10725-9
+
+
 ### 2019-Viphakone:  Co-transcriptional Loading of RNA Export Factors
 Shapes the Human Transcriptome
 
