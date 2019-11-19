@@ -1,3 +1,12 @@
+### 2018-Huang: Densely Connected Convolutional Networks
+
+https://arxiv.org/abs/1608.06993
+
+ResNet の改良版 CNN アーキテクチャ。スキップ接続を add でなく concat オペレーションにする。Dense Block という数十レイヤーの単位で concat を重ねて幅を広げ、Translation Layer でいったん接続を切り次元を下げる、というのを繰り返す構造。WRN と違って各レイヤーの width (フィルタ数; growth rate k) を小さく出来る。ImageNet において ResNet 並の成績を半分のパラメータ数や FLOP 数で実現した。
+
+感想: 技術的には順当な一般化だ。ブロックに分けて次元が上がりすぎないようにするのも順当だけど、言うは易し。うまくいくやり方を見つけてくれたのは大きい。著者も議論してるが、DenseNet は ResNet とは本質的に違って、差分を学習するのでなく徹底的に feature reuse をするのがポイントなのかもしれない。各レイヤが小さな学習をして、その寄せ集めで良い成績を出すという。
+
+
 ### 2015-Young: Regulation of the Epigenome by Vitamin C
 
 https://dx.doi.org/10.1146/annurev-nutr-071714-034228
