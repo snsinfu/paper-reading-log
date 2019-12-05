@@ -1,3 +1,8 @@
+### 2019-Ngai: Absolutely necessary to consider the caged dynamics and the JGX β-relaxation in solving the glass transition problem 
+
+https://doi.org/10.5488/CMP.22.43605
+
+
 ### 2019-Potapova: Superresolution microscopy reveals linkages between ribosomal DNA on heterologous chromosomes
 
 https://doi.org/10.1083/jcb.201810166
