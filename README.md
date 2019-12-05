@@ -2,6 +2,10 @@
 
 https://doi.org/10.5488/CMP.22.43605
 
+ガラス転移のオピニオン論文。α/βJGX-緩和過程において caged dynamics (MSD ⟨u^2⟩ の挙動) が重要であるという主張。⟨u^2(Tg)⟩ (散乱実験で測定される ~1ns 以下の MSD) が α-転移の指数パラメータ n と相関する、Tg 前後で ⟨u^2(T)⟩ の温度依存性が変わる、β-緩和時間で ⟨u^2(t)⟩ の指数が変化する (caging が終わる) など。遅いガラス転移を理解するためには caged dynamics のような速い過程の理解が重要だと主張する。
+
+感想: タイトル必死w でも面白い。つっかえて動けなかったり急に動いたりするのはイメージ的にガラスぽいわけで、関係あるだろうとは思う。何が起こってるのか気になる。
+
 
 ### 2019-Potapova: Superresolution microscopy reveals linkages between ribosomal DNA on heterologous chromosomes
 
