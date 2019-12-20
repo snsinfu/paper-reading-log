@@ -1,3 +1,12 @@
+### 2019-Graf: Xor Filters: Faster and Smaller Than Bloom and Cuckoo Filters
+
+https://arxiv.org/abs/1912.08258
+
+ブルームフィルタ的なデータ構造。既知要素のフィンガープリントを複雑なアルゴリズムで3つのハッシュ配列に登録する。クエリ時は3つのハッシュ配列からクエリキーの値を取り出して xor をとり、結果がクエリキーのフィンガープリントに一致するかどうかをテストする。同一ビット数ならブルームフィルタより偽陽確率が低く優秀。
+
+感想: RAID でパリティを分散させるような考え方で面白い。クエリだけなら好き。でもフィルタ構築アルゴリズムが複雑で嫌だ。[HN](https://news.ycombinator.com/item?id=21840821) あり。
+
+
 ### 2019-Ngai: Absolutely necessary to consider the caged dynamics and the JGX β-relaxation in solving the glass transition problem 
 
 https://doi.org/10.5488/CMP.22.43605
