@@ -1,3 +1,8 @@
+### 2017-Dillinger: Nucleolus association of chromosomal domains is largely maintained in cellular senescence despite massive nuclear reorganisation
+
+https://doi.org/10.1371/journal.pone.0178821
+
+
 ### 2019-Graf: Xor Filters: Faster and Smaller Than Bloom and Cuckoo Filters
 
 https://arxiv.org/abs/1912.08258
