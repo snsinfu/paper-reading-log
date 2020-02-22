@@ -1,3 +1,8 @@
+### 2020-Maziarka: Molecule Attention Transformer
+
+https://arxiv.org/abs/2002.08264
+
+
 ### 2017-Dillinger: Nucleolus association of chromosomal domains is largely maintained in cellular senescence despite massive nuclear reorganisation
 
 https://doi.org/10.1371/journal.pone.0178821
