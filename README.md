@@ -2,6 +2,10 @@
 
 https://arxiv.org/abs/2002.08264
 
+Transformer を分子モデリングに応用する試み。創薬モチベーションだけど特定のタスクでなく汎用の方法論。分子をテキスト表現して入力としていた先行研究に対して、(a) 原子の種類・性質をコードしたベクトルを入力とするのと (b) self-attention に原子の距離行列と隣接行列 (分子内の結合関係) を重畳するのが新しい。構造寄りのモデル。ベンチマークの結果はそんなに圧倒的に良いわけではないけど、ハイパーパラメータの探索数が少ないときほかに勝つ。
+
+感想: 凄いのが出来たというよりは、Transformer を分子に応用するひとつの方針をチェックポイント的に公表した感じ。モヤッとするのが、距離・隣接行列を attention と同列に扱っている (QK に足してる) ところ。学習すべき attention を距離・隣接関係でコンディショニングする意図があるわけだが、せっかく Transformer を使ってるのなら NN に自由に学習させたいと思うんだけど。Fig. 5 を見るとそれでも距離・隣接からは非自明な attention が出ているようだから、これで良いのか?
+
 
 ### 2017-Dillinger: Nucleolus association of chromosomal domains is largely maintained in cellular senescence despite massive nuclear reorganisation
 
