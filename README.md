@@ -1,3 +1,8 @@
+### 2019-Yang: Analyzing Learned Molecular Representations for Property Prediction
+
+https://doi.org/10.1021/acs.jcim.9b00237
+
+
 ### 2020-Stokes: A Deep Learning Approach to Antibiotic Discovery
 
 https://doi.org/10.1016/j.cell.2020.01.021
