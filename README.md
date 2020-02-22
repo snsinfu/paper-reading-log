@@ -1,3 +1,12 @@
+### 2020-Stokes: A Deep Learning Approach to Antibiotic Discovery
+
+https://doi.org/10.1016/j.cell.2020.01.021
+
+Meaaage Passing NN モデルにより広スペクトルの抗生物質を発見した。様々なソースから2,335種類の分子を集めてきて (RESULTS 第1パラ参照)、E. coli に対する抗生物質活性をラベルとして MPNN (グラフ版 CNN) モデルを訓練。このモデルを用いて Drug Repurposing Hub に含まれる6,111分子から抗生物質候補を予測し実際にテストした。その中の SU3327 (halicin) が特にすごくて、E. coli だけでなく WHO に名指しされた複数の細菌に対して増殖阻害効果を発揮した。さらに、同モデルを使って107,349,233分子のライブラリにスクリーニングをかけ23分子を選択しテストしたところ、そのうち2つが広スペクトルの抗生物質として使えるものだった。
+
+感想: がっつり応用しててすごい。NN は道具として使ってて論文には詳しく書いてない。モデルは [Chemprop](http://chemprop.csail.mit.edu/) で、[2019年に論文になっていた](https://doi.org/10.1021/acs.jcim.9b00237) ようだ。今回はそれを応用して、実際に役立つ創薬スクリーニングが出来たって話か。
+
+
 ### 2020-Maziarka: Molecule Attention Transformer
 
 https://arxiv.org/abs/2002.08264
