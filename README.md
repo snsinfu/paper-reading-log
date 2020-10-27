@@ -1,3 +1,14 @@
+### 2020-Arp: Quieting a noisy antenna reproduces photosynthetic light-harvesting spectra
+
+https://doi.org/10.1126/science.aba6630
+
+SIが本体。
+
+光合成を、ゆらぎのあるエネルギー源 (環境光) からランダムにON/OFFするアンテナ (クロロフィル) でエネルギーを回収しターゲット出力Ωを得るシステムと抽象化。アンテナ1つより2つのほうがノイズの少ない出力を得られる (任意の単一アンテナに対しそのようなツインアンテナが存在する) ことを示した。さまざまな環境光スペクトルを使ってアンテナの最適解を求めることで実際のクロロフィルa/bの吸収ピークを精度よく再現した。
+
+感想: シンプルかつ抽象的な理論とモデルでリアルな系をきれいに予測していて格好良い。これ、エネルギーが出力でなくとも、ノイジーな入力に対して一定の何かを出力しようとするシステム (たとえば遺伝子制御ネットワークとか) 一般に適用できるだろう。興味深い。
+
+
 ### 2019-Yang: Analyzing Learned Molecular Representations for Property Prediction
 
 https://doi.org/10.1021/acs.jcim.9b00237
