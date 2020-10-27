@@ -1,3 +1,10 @@
+### 1997-Durian: Bubble-scale model of foam mechanics: Melting, nonlinear behavior, and avalanches
+
+https://doi.org/10.1103/PhysRevE.55.1739
+
+泡をソフトコア粒子としてモデル化することでレオロジーを議論した計算論文。*TODO*
+
+
 ### 2020-Choromanski: Rethinking Attention with Performers
 
 https://arxiv.org/abs/2009.14794
