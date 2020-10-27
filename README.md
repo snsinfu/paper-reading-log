@@ -1,3 +1,10 @@
+### 2020-Choromanski: Rethinking Attention with Performers
+
+https://arxiv.org/abs/2009.14794
+
+Transformerで使われるQK部分を再考して計算量を線形に落とした。**TODO**
+
+
 ### 2020-Arp: Quieting a noisy antenna reproduces photosynthetic light-harvesting spectra
 
 https://doi.org/10.1126/science.aba6630
