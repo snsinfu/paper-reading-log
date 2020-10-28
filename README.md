@@ -4,12 +4,16 @@ https://doi.org/10.1103/PhysRevE.55.1739
 
 泡をソフトコア粒子としてモデル化することでレオロジーを議論した計算論文。*TODO*
 
+([PR](https://ai.googleblog.com/2020/10/rethinking-attention-with-performers.html)、[実装](https://github.com/google-research/google-research/tree/master/performer/fast_self_attention)、
+
 
 ### 2020-Choromanski: Rethinking Attention with Performers
 
 https://arxiv.org/abs/2009.14794
 
-Transformerで使われるQK部分を再考して計算量を線形に落とした。**TODO**
+Transformer で使われる QK 型のアテンションをカーネル化することで計算量を線形に落とす理論・実装論文。QR-直交化されたガウシアン乱数行列 (毎回ランダム; redrawn) によってデータを低次元に落とし (ω^T x)、Lemma 1 の普偏推定式を使って softmax を1標本モンテカルロ近似する。Lemma 2 によりこの普遍推定はロバストである (分散が発散しない) ことが保証されるため推定精度は悪化しにくい。数値実験により計算コストが実際線形で、アテンションの近似もロバストであることが確認された。さらに softmax 近似から離れて RKHS の関数として ReLU を選んだもの (対応するカーネルは謎だが) も試してい良い性能を達成している。Transformer ではメモリ消費が多すぎてモデルを縮小しないと比較不可能な問題 (TrEMBL 8192) でも Performer なら計算可能ということも示している。精度はともかく。
+
+感想: 重要。Softmax から離れるというのも気になる。Transformer を軽くするのはほかにもあるようだが、そっちはどんなだろう。
 
 
 ### 2020-Arp: Quieting a noisy antenna reproduces photosynthetic light-harvesting spectra
