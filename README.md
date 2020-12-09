@@ -1,3 +1,12 @@
+### 2004-Brunnet: Cellular automata on high-dimensional hypercubes
+
+https://doi.org/10.1103/physreve.69.057201
+
+D-次元超立方体 Z_2^D 上のオートマトン。オートマトンの時間発展 x(t)∈Z_2^n を追いながら c(t) = popcnt(x(t)) を計算すると、(c(t), c(t+1)) のダイナミクスに有限測度の basin を持ったアトラクタが現れることを見出した。基本的にはそれだけのシンプルな論文。
+
+感想: これ面白い。離散システムのコレクティブ量 c(t) からアトラクタを見出しているのが新鮮。引用数たった5件っておかしくないか? この論文が扱ってるのはオートマトンだけど、アトラクタの解析は任意の2状態D自由度系のダイナミクスにも使えるだろう。任意のグラフ上のダイナミクスにも使える?
+
+
 ### 1997-Durian: Bubble-scale model of foam mechanics: Melting, nonlinear behavior, and avalanches
 
 https://doi.org/10.1103/PhysRevE.55.1739
@@ -5,8 +14,7 @@ https://doi.org/10.1103/PhysRevE.55.1739
 泡をソフトコア粒子としてモデル化することでレオロジーを議論した計算論文。*TODO*
 
 
-### 2020-Choromanski: Rethinking Attention with Performers
-
+### 2020-Choromanski: Rethinking Attention with Performer
 https://arxiv.org/abs/2009.14794
 
 Transformer で使われる QK 型のアテンションをカーネル化することで計算量を線形に落とす理論・実装論文。QR-直交化されたガウシアン乱数行列 (毎回ランダム; redrawn) によってデータを低次元に落とし (ω^T x)、Lemma 1 の普偏推定式を使って softmax を1標本モンテカルロ近似する。Lemma 2 によりこの普遍推定はロバストである (分散が発散しない) ことが保証されるため推定精度は悪化しにくい。数値実験により計算コストが実際線形で、アテンションの近似もロバストであることが確認された。さらに softmax 近似から離れて RKHS の関数として ReLU を選んだもの (対応するカーネルは謎だが) も試してい良い性能を達成している。Transformer ではメモリ消費が多すぎてモデルを縮小しないと比較不可能な問題 (TrEMBL 8192) でも Performer なら計算可能ということも示している。精度はともかく。([PR](https://ai.googleblog.com/2020/10/rethinking-attention-with-performers.html)、[実装](https://github.com/google-research/google-research/tree/master/performer/fast_self_attention))
